@@ -11,7 +11,7 @@ test('User can submit the form and see their info', async t => {
     await t
         .typeText('#name-input', 'Thien')
         .typeText('#birthdate-input', '27/10/2004')
-        .typeText('#phone-input', '0123456789')
+        .typeText('#phone-input', '123456789')
         .click('#submit-button')
         .wait(500);
 
